@@ -69,4 +69,35 @@ constexpr double kA = 0;
 
 }  // namespace DriverConstants
 
+namespace ShuttleConstants {
+constexpr int kLeftMotionMotorEnablePin = 0;
+constexpr int kRightMotionMotorEnablePin = 0;
+constexpr int kLeftMotionMotorSignalPin = 0;
+constexpr int kRightMotionMotorSignalPin = 0;
+
+constexpr int kLeftMotionMotorRPMPin = 0;
+constexpr int kRightMotionMotorRPMPin = 0;
+
+constexpr int kLeftMotionMotorThermalPin = 0;
+constexpr int kRightMotionMotorThermalPin = 0;
+
+constexpr int kLeftHytorcMotorPin = 0;
+constexpr int kRightHytorcMotorPin = 0;
+
+constexpr int kLeftHytorcForwardEncoderPin = 0;
+constexpr int kRightHytorcForwardEncoderPin = 0;
+constexpr int kLeftHytorcBackwardEncoderPin = 0;
+constexpr int kRightHytorcBackwardEncoderPin = 0;
+
+constexpr int kLeftArmLimitSwitchPin = 0;
+constexpr int kRightArmLimitSwitchPin = 0;
+constexpr int kLeftLimitSwitchPin = 0;
+constexpr int kCenterLimitSwitchPin = 0;
+constexpr int kRightLimitSwitchPin = 0;
+
+constexpr double kP = 0;
+constexpr double kI = 0;
+constexpr double kD = 0;
+}  // namespace ShuttleConstants
+
 }  // namespace lattice
